@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Group 15 CS340 Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <!--NAVIGATION BAR-->
+    <div class="topnav">
+        <a href="customers.html">Customers</a>
+        <a href="locations.html">Locations</a>
+        <a href="commodities.html">Commodities</a>
+        <a href="orders.html">Orders</a>
+        <a href="commodities2locations.html">Commodities & Locations</a>
+    </div>
+
+    <!--FORM FOR SQL INSERT-->
+    <h3>Insert Customer Here</h3>
+    <form>
+        <input type="text" name="name" id="name_input" placeholder="Name">
+        <label for="name"> Name</label><br>
+        <input type="text" name="Email" id="email_input" placeholder="email">
+        <label for="email"> email</label><br>
+        </br>
+        <button type="submit" id="insertCustomerButton" value="Submit">INSERT</button>
+        </br>
+        </form>
+        </br>
+    </form>
+
+
+    <!--TABLE FOR SELECT QUERY-->
+    <h2>Customer Table</h2>
+    <table>
+    <tr>
+        <th>customerID</th>
+        <th>customerName</th>
+        <th>email</th>
+        <th>UPDATE</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Eric Slater</td>
+        <td>eric@email.com</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Patrick Glowacki</td>
+        <td>patrick@email.com</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Anthony Kiedis</td>
+        <td>anthony@email.com</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Maynard James Keenan</td>
+        <td>maynard@email.com</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Danny Carey</td>
+        <td>danny@email.com</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    </table>
+
+    <!--Link scripts.js
+    <script src="scripts.js" defer></script>  -->  
+</body>
+</html>
