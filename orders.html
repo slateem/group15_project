@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Group 15 CS340 Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+<body>
+    
+
+    <!--NAVIGATION BAR-->
+    <div class="topnav">
+        <a href="index.html">Customers</a>
+        <a href="locations.html">Locations</a>
+        <a href="commodities.html">Commodities</a>
+        <a href="orders.html">Orders</a>
+        <a href="commodities2locations.html">Commodities & Locations</a>
+    </div>
+
+
+    <!--FORM FOR SQL INSERT-->
+    <h3>Insert New Order Here</h3>
+    <form>
+        <input type="text" name="orderLocation" id="orderLocation_input" placeholder="orderLocation">
+        <label for="orderLocation"> Order Location</label><br>
+        <input type="number" name="commodityPrice" id="commodityPrice_input" placeholder="commodityPrice">
+        <label for="commodityPrice"> Commodity Price</label><br>
+        <input type="number" name="purchaseQuantity" id="purchaseQuantity_input" placeholder="purchaseQuantity">
+        <label for="purchaseQuantity"> Purchase Quantity</label><br>
+        </br>
+        <button type="submit" id="submitButton" value="Submit">INSERT</button>
+        </br>
+        </form>
+        </br>
+    </form>
+
+    <!--FORM FOR SQL UPDATE-->
+    <h3>Filter/Search ID</h3>
+    <form>
+        <input type="text" name="idSearch" id="idSearch_input" placeholder="idSearch">
+        <label for="idSearch"> Search ID</label><br>
+        </br>
+        <button type="submit" id="updateCustomerButton" value="Submit">SEARCH</button>
+        </br>
+        </form>
+        </br>
+    </form>
+
+    <!--TABLE FOR SELECT QUERY-->
+    <h2>Orders Table</h2>
+    <table>
+    <tr>
+        <th>orderID</th>
+        <th>customerID</th>
+        <th>locationID</th>
+        <th>commodityID</th>
+        <th>commodityPrice</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+        <td>4</td>
+        <td>4.66</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>5</td>
+        <td>3</td>
+        <td>12.50</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>1</td>
+        <td>2</td>
+        <td>5.66</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>1</td>
+        <td>4</td>
+        <td>4</td>
+        <td>4.44</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>2</td>
+        <td>4</td>
+        <td>3</td>
+        <td>6.96</td>
+    </tr>
+    </table>
+
+    <!--Link scripts.js
+    <script src="scripts.js" defer></script>  -->  
+</body>
+</html>
