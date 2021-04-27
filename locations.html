@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Group 15 CS340 Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+
+<body>
+
+    <!--NAVIGATION BAR-->
+    <div class="topnav">
+        <a href="customers.html">Customers</a>
+        <a href="locations.html">Locations</a>
+        <a href="commodities.html">Commodities</a>
+        <a href="orders.html">Orders</a>
+        <a href="commodities2locations.html">Commodities & Locations</a>
+    </div>
+
+    <!--FORM FOR SQL INSERT-->
+    <h3>Insert Location Here</h3>
+    <form>
+        <input type="text" name="locationName" id="locationName_input" placeholder="locationName">
+        <label for="locationName"> Location Name</label><br>
+        <input type="number" name="locationRate" id="locationRate_input" placeholder="locationRate">
+        <label for="locationRate"> Location Rate</label><br>
+        </br>
+        <button type="submit" id="submitButton" value="Submit">INSERT</button>
+        </br>
+        </form>
+        </br>
+    </form>
+
+    <!--TABLE FOR SELECT QUERY-->
+    <h2>Locations Table</h2>
+    <table>
+    <tr>
+        <th>1</th>
+        <th>locationName</th>
+        <th>locationRate</th>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Memphis</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Houston</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Louisville</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Tulsa</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Minneapolis</td>
+        <td>2</td>
+    </tr>
+    </table>
+
+    <!--Link scripts.js
+    <script src="scripts.js" defer></script>  -->  
+</body>
+</html>
