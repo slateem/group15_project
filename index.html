@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Group 15 CS340 Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+    <!--NAVIGATION BAR-->
+    <div class="topnav">
+        <a href="index.html">Customers</a>
+        <a href="locations.html">Locations</a>
+        <a href="commodities.html">Commodities</a>
+        <a href="orders.html">Orders</a>
+        <a href="commodities2locations.html">Commodities at Locations</a>
+    </div>
+
+    <!--FORM FOR SQL INSERT-->
+    <h1>Insert New Customer Here</h1>
+    <div>
+        <form style="background-color:#DCDCDC">
+        </br>
+            <label for="name"> Name</label><br>
+            <input type="text" name="name" id="name_input" placeholder="Name">
+            </br>
+        </br>
+            <label for="email"> Email</label><br>
+            <input type="text" name="Email" id="email_input" placeholder="email"> </br>
+            </br>
+            <button type="submit" id="insertCustomerButton" value="Submit">INSERT</button>
+            </br>
+        </br>
+        </form>
+   
+    </div>
+
+    <!--TABLE FOR SELECT QUERY-->
+    <h1>Customer Table</h1>
+    <table>
+    <tr>
+        <th>customerID</th>
+        <th>customerName</th>
+        <th>email</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Eric Slater</td>
+        <td>eric@email.com</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Patrick Glowacki</td>
+        <td>patrick@email.com</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Anthony Kiedis</td>
+        <td>anthony@email.com</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Maynard James Keenan</td>
+        <td>maynard@email.com</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Danny Carey</td>
+        <td>danny@email.com</td>
+    </tr>
+    </table>
+
+    <!--Link scripts.js
+    <script src="scripts.js" defer></script>  -->  
+</body>
+</html>

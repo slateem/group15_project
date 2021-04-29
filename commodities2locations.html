@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Group 15 CS340 Project</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+
+
+<body>
+
+    <!--NAVIGATION BAR-->
+    <div class="topnav">
+        <a href="index.html">Customers</a>
+        <a href="locations.html">Locations</a>
+        <a href="commodities.html">Commodities</a>
+        <a href="orders.html">Orders</a>
+        <a href="commodities2locations.html">Commodities at Locations</a>
+    </div>
+
+    <!--FORM FOR SQL INSERT-->
+    <h1>Insert Commodity Quantity at a Location Here</h1>
+    
+    <div>
+        <form style="background-color:#DCDCDC">
+        </br>
+            <label for="locationID"> locationID</label><br>
+            <input type="number" name="locationID" id="locationID_input" placeholder="locationID"></br>
+            </br>
+            <label for="locationID"> commodityID</label><br>
+            <input type="number" name="commodityID" id="commodityID_input" placeholder="commodityID"></br>
+            </br>
+            <label for="commodityQuantity"> commodityQuantity</label><br>
+            <input type="number" name="commodityQuantity" id="commodityQuantity_input" placeholder="commodityQuantity"></br>
+            </br>
+            <button type="submit" id="submitButton" value="Submit">INSERT</button>
+            </br>
+            </br>
+            </br>
+        </form>
+        </div>  
+        </body>
+    </div>
+
+    <!--TABLE FOR SELECT QUERY-->
+    <h1>Commodities at Locations Table</h1>
+    <table>
+    <tr>
+        <th>locationID</th>
+        <th>commodityID</th>
+        <th>commodityQuantity</th>
+        <th>Update</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>3</td>
+        <td>300000</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>1</td>
+        <td>365064</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>54684684</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>4</td>
+        <td>646456</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>5</td>
+        <td>6546484</td>
+        <th><button type="submit" id="updateCustomerButton" value="Submit">UPDATE</button></th>
+    </tr>
+    </table>
+
+    <!--Link scripts.js
+    <script src="scripts.js" defer></script>  -->  
+</body>
+</html>
