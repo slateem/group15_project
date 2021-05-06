@@ -31,13 +31,13 @@
         <form style="background-color:#DCDCDC">
         </br>
             <label for="orderLocation"> Order Location</label><br>
-            <input type="text" name="orderLocation" id="orderLocation_input" placeholder="orderLocation"></br>
+            <input type="text" name="orderLocation" id="orderLocation_input" placeholder="orderLocation" required></br>
         </br>
             <label for="commodityPrice"> Commodity Price</label><br>
-            <input type="number" name="commodityPrice" id="commodityPrice_input" placeholder="commodityPrice"></br>
+            <input type="number" name="commodityPrice" id="commodityPrice_input" placeholder="commodityPrice" required></br>
         </br>
             <label for="purchaseQuantity"> Purchase Quantity</label><br>
-            <input type="number" name="purchaseQuantity" id="purchaseQuantity_input" placeholder="purchaseQuantity"></br>
+            <input type="number" name="purchaseQuantity" id="purchaseQuantity_input" placeholder="purchaseQuantity" required></br>
             </br>
             <button type="submit" id="submitButton" value="Submit">INSERT</button>
             </br>
@@ -46,12 +46,12 @@
     </div>
 
     <!--FORM FOR SQL UPDATE-->
-    <h1>Filter/Search ID</h1>
+    <h1>Search for an order based on OrderID</h1>
     <div>
     <form style="background-color:#DCDCDC">
     </br>
         <input type="text" name="idSearch" id="idSearch_input" placeholder="idSearch">
-        <label for="idSearch"> Search ID</label><br>
+        <label for="idSearch"> Search orderID</label><br>
         </br>
         <button type="submit" id="updateCustomerButton" value="Submit">SEARCH</button>
         </br>

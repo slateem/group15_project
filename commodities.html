@@ -27,17 +27,18 @@
 
     <!--FORM FOR SQL INSERT-->
     <h1>Insert New Commodity Here</h1>
+    <p>When a commodity is deleted, commodity name will turn NULL on the "Commodities at Locations" table</p>
     <div>
         <form style="background-color:#DCDCDC">
         </br>
             <label for="commodityName"> Commodity Name</label><br>
-            <input type="text" name="commodityName" id="commodityName_input" placeholder="commodityName"></br>
+            <input type="text" name="commodityName" id="commodityName_input" placeholder="commodityName" required></br>
         </br>
             <label for="commodityWeight"> Commodity Weight</label><br>
-            <input type="number" name="commodityWeight" id="commodityWeight_input" placeholder="commodityWeight"></br>
+            <input type="number" name="commodityWeight" id="commodityWeight_input" placeholder="commodityWeight" required></br>
         </br>
             <label for="baseRate"> Base Rate</label><br>
-            <input type="number" name="baseRate" id="baseRate_input" placeholder="baseRate"></br>
+            <input type="number" name="baseRate" id="baseRate_input" placeholder="baseRate" required></br>
             </br>
             <button type="submit" id="submitButton" value="Submit">INSERT</button>
         </br>
